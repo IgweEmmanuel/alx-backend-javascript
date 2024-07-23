@@ -1,4 +1,3 @@
-// This uses const and let variable declarator instead of var
 export function taskFirst() {
   const task = 'I prefer const when I can.'
   return task
