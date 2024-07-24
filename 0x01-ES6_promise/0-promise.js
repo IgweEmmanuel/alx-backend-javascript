@@ -6,7 +6,8 @@ export default function getResponseFromAPI() {
 
       if (success) {
         resolve("Success!");
-      } else {
+      } 
+      else {
         reject("Error!");
       }
     }, 1000);
