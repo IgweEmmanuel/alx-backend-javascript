@@ -1,6 +1,6 @@
 import ClassRoom from './0-classroom.js'
 
-export default function initializeRooms(){
+export default const initializeRooms = () => {
   const result = [];
   result.push(new ClassRoom(19));
   result.push(new ClassRoom(20));
