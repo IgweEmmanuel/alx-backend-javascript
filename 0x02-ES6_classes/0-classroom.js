@@ -1,9 +1,11 @@
-/* This is class */
+/**
+ * This is class
+ */
 export default class ClassRoom {
-  /*
-   This is the constructor 
-  */
-  constructor (maxStudentsSize) {
+  /**
+   * This is the constructor
+   */
+  constructor(maxStudentsSize) {
     this._maxStudentsSize = maxStudentsSize;
   }
 }
