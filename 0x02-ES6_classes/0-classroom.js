@@ -1,9 +1,10 @@
 /**
- * This is class
+ * Represents a class room.
  */
 export default class ClassRoom {
   /**
-   * This is the constructor
+   * @param {Number} maxStudentsSize - The maximum number of
+   * students in the class.
    */
   constructor(maxStudentsSize) {
     this._maxStudentsSize = maxStudentsSize;
