@@ -3,7 +3,7 @@
  * Return: It returns array of objects
  */ 
 function getListStudents(){
-  return ([
+  return([
     {
       id: 1,
       firstName: 'Guillaume',
