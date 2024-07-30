@@ -2,7 +2,7 @@
  * getlistStudetns - This is the function that prints array of objects
  * Return: It returns array of objects
  */ 
-const getListStudents = () => {
+function getListStudents() => {
   return ([
     {
       id: 1,
