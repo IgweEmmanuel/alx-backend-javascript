@@ -51,7 +51,7 @@ const createEmployee = (salary: number | string): Teacher | Director => {
 }
 
 const isDirector = (employee: Director | Teacher): employee is Director => {
-  return (employee as Director).workDirectorTasks != 'undefined';
+  return (employee as Director).workDirectorTasks !== undefined;
 }
 
 const executeWork = (employee: Director | Teacher): void => {
@@ -59,5 +59,17 @@ const executeWork = (employee: Director | Teacher): void => {
     console.log(employee.workDirectorTasks());
   }else {
     console.log(employee.workTeacherTasks());
+  }
+}
+
+
+type Subjects = 'Math' | 'History';
+
+ 
+teachClass(todayClass: Subjects): string {
+  if (typeof todayClass === 'Math') {
+    return 'Teaching Math';
+  }else {
+    return 'Teaching History';
   }
 }
